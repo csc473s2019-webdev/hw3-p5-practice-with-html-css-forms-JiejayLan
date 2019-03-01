@@ -12,13 +12,13 @@
         <p id="description">
           CCNY Hackthon Application
         </p>
-        <form id="surway-form">
+        <form id="surwey-form">
             <div>
                 <div>
                   <label id="name-label">Name </label>
                 </div>
                 <div >
-                  <input type="text" id="name" class="input-field" placeholder="enter name" >
+                  <input required type="text" id="name" class="input-field" placeholder="enter name" >
                 </div>
             </div>
             <div>
@@ -31,10 +31,10 @@
             </div> 
             <div>
                 <div>
-                  <label >Age </label>
+                  <label  id="number-label" >Age </label>
                 </div>
                 <div >
-                  <input type="number" id="age" min ="0" max ="100" class="input-field" placeholder="enter age" >
+                  <input type="number" id="number" min ="0" max ="100" class="input-field" placeholder="enter age" >
                 </div>
             </div> 
 
@@ -42,13 +42,14 @@
                 <div>
                   <label >Select a school </label>
                 </div>
-                <select id="dropdown"  class="dropdown">
+                <select id="dropdown">
                     <option value="Hunter_College">Hunter College</option>
                     <option value ="CCNY">CCNY</option>
                     <option value="BMCC">BMCC</option>
                     <option value="LGCC">LGCC</option>
                 </select>  
             </div> 
+
             <textarea cols="30" rows="10" placeholder="Enter addition comment"></textarea>
 
             <div >
@@ -57,7 +58,7 @@
                 <input type="radio" name="gender" value="female"> Female<br>
                 <input type="radio" name="gender" value="other"> Other<br>      
             </div>
-            <input type="submit" value="Submit">
+            <button type="submit" value="Submit">
         
         </form>
  
