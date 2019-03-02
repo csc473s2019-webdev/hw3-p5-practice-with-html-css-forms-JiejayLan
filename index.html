@@ -39,7 +39,7 @@
             </div> 
 
             <div class="radio-group">
-                <span id="gender">What is your gender?</span>
+                <span id="gender-label">What is your gender?</span>
                 <ul>  
                         <li><input type="radio" name="gender" value="male"> Male</li> 
                         <li><input type="radio" name="gender" value="female"> female</li> 
@@ -48,16 +48,18 @@
             </div>        
 
             <div class="checkBox">
-                <label id="skills">what skills you knows?</label>
+                <label id="checkBox-label">what skills you knows?</label>
                 <div id="checkoption">
                     <input type="checkbox" name="react" value="react"> react<br>
                     <input type="checkbox" name="css" value="css"> css<br>
                     <input type="checkbox" name="java" value="java" > java<br><br>
                 </div>
-
             </div>
-            <div>Any comment?</div>
-            <textarea cols="30" rows="10" placeholder="Enter addition comment"></textarea>
+
+            <div id="comment">
+                <span>Any comment?</span>
+                <textarea  cols="30" rows="10" placeholder="Enter addition comment"></textarea>
+            </div>
             <div>
                 <button type="submit" value="Submit">Submit</button>
             </div>
