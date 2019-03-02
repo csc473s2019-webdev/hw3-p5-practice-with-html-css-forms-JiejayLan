@@ -61,3 +61,12 @@ ul {
     list-style-type: none;
     margin-top: 20px;
 }
+
+.checkBox{
+    margin-left: -180px; 
+}
+
+.checkBox #checkoption{
+    text-align: left;
+    padding-left: 43.5%;
+}
