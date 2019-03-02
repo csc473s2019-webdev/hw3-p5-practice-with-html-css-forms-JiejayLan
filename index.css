@@ -34,15 +34,16 @@ body{
     border: 1px;
 }
 
-#select-school{
-    display: inline-flex;
-    margin-top: 10px;
-    width:20%;
-    text-align: left;
+#schools{
+    margin-left: -240px; 
 }
 
-
-
+#school-label{
+    display: inline-block;
+    margin-top: 10px;
+    width:14%;
+    text-align: left;
+}
 
 
 .radio-group{
