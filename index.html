@@ -13,36 +13,23 @@
         <p id="description">
           CCNY Hackthon Application
         </p>
-        <form id="surwey-form">
+        <form id="survey-form">
             <div>
-                <div>
-                  <label id="name-label">Name </label>
-                </div>
-                <div >
+                  <label id="name-label">Name: </label>   
                   <input required type="text" id="name" class="input-field" placeholder="enter name" >
-                </div>
+                            
             </div>
-            <div>
-                <div>
-                  <label id="email-label">Email </label>
-                </div>
-                <div >
-                  <input type="email" id="email" class="input-field" placeholder="enter email" >
-                </div>
+            <div>            
+                  <label id="email-label">Email: </label>
+                  <input required type="email" id="email" class="input-field" placeholder="enter email" >
             </div> 
             <div>
-                <div>
-                  <label  id="number-label" >Age </label>
-                </div>
-                <div >
+                  <label  id="number-label" >Age: </label>
                   <input type="number" id="number" min ="0" max ="100" class="input-field" placeholder="enter age" >
-                </div>
             </div> 
 
             <div>
-                <div>
-                  <label >Select a school </label>
-                </div>
+                <label id="select-school">Select a school: </label>
                 <select id="dropdown">
                     <option value="Hunter_College">Hunter College</option>
                     <option value ="CCNY">CCNY</option>
@@ -51,13 +38,21 @@
                 </select>  
             </div> 
 
-            <textarea cols="30" rows="10" placeholder="Enter addition comment"></textarea>
-
-            <div >
+            <div class="radio-group">
                 <div>What is your gender?</div>
-                <input type="radio" name="gender" value="male"> Male<br>
-                <input type="radio" name="gender" value="female"> Female<br>
-                <input type="radio" name="gender" value="other"> Other<br>      
+                <ul>
+                    <div>
+                        <li><input type="radio" name="gender" value="male"> Male</li> 
+                    </div>
+                    <div>
+                        <li><input type="radio" name="gender" value="female"> female</li> 
+                    </div>
+                    <div>
+                        <li><input type="radio" name="gender" value="other"> other</li> 
+                    </div>   
+                    
+                </ul>
+   
             </div>        
 
             <div>
@@ -66,9 +61,15 @@
                 <input type="checkbox" name="css" value="css"> css<br>
                 <input type="checkbox" name="java" value="java" > java<br><br>
             </div>
-            <button type="submit" value="Submit">Submit</button>
+            <div>Any comment?</div>
+            <textarea cols="30" rows="10" placeholder="Enter addition comment"></textarea>
+            <div>
+                <button type="submit" value="Submit">Submit</button>
+            </div>
+            
         </form>
  
     </div>
 </body>
 </html>
+
