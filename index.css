@@ -1,0 +1,16 @@
+body{
+    background: rgba(158, 190, 238, 0.534);
+}
+
+#title{
+    text-align: center;
+}
+
+
+#outer-layer{
+    text-align: center;
+    background: rgb(241, 237, 237);
+    padding: 0 50px;
+    width:60%;
+    margin:0 auto;
+}
